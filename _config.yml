@@ -21,7 +21,7 @@ description:
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://bmangelsen.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @ben_mangelsen
+twitter_username: ben_mangelsen
 github_username:  bmangelsen
 
 sass:
