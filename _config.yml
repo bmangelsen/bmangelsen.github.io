@@ -15,21 +15,19 @@
 # in the templates via {{ site.myvariable }}.
 title: Ben Mangelsen
 email: bmangelsen@gmail.com
-description:
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # this means to ignore newlines until "baseurl:"
+  All about Ben Mangelsen
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://bmangelsen.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bmangelsen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ben_mangelsen
 github_username:  bmangelsen
 
+markdown: kramdown
+highlighter: rouge
 sass:
   style: compressed
 
 # Build settings
-markdown: kramdown
-
 gems:
   - jekyll-feed
 exclude:
